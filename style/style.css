@@ -39,29 +39,36 @@
     color: white;
     padding: 15px 35px;
     font-size: 20px;
+    font-weight: 700;
 }
-.nav-banner{
+
+.nav-banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-left: 120px;
 }
-.nav-title{
+
+.nav-title {
     font-size: 45px;
 }
-.nav-title span{
+
+.nav-title span {
     color: #177BF2;
 }
-.nav-banner-title{
+
+.nav-banner-title {
     font-size: 45px;
     color: #474747;
 }
-.nav-banner-heading{
+
+.nav-banner-heading {
     font-size: 65px;
     line-height: 60px;
     margin-bottom: 25px;
 }
-.nav-banner-btn{
+
+.nav-banner-btn {
     background-color: #177BF2;
     padding: 18px 25px;
     font-size: 20px;
@@ -69,18 +76,53 @@
     border-style: none;
     margin-right: 15px;
 }
-.nav-banner-description{
+
+.nav-banner-description {
     margin-bottom: 45px;
 }
-.nav-banner-img{
+
+.nav-banner-img {
     height: 694px;
     width: auto;
 }
-.nav-banner-contact{
+
+.nav-banner-contact {
     background-color: white;
     padding: 17px 25px;
     font-size: 20px;
     color: #177BF2;
     border: 2px solid #177BF2;
-    
 }
+
+/* about section  */
+
+.about {
+    border-radius: 10px;
+    background: #F0F7FF;
+    height: 450px;
+    width: 80%;
+    margin: 130px auto;
+}
+.about-content{
+    text-align: center;
+    padding: 7% 15%;
+}
+.about-title{
+    font-size: 35px;
+}
+.about-description{
+    margin-top: 25px;
+}
+.about-info{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding: 0 10%;
+}
+.about-info-list p{
+    color: #757575;
+}
+.about-info-list h4{
+    color: #474747;
+}
+
