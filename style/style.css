@@ -75,6 +75,7 @@
     color: white;
     border-style: none;
     margin-right: 15px;
+    border-radius: 5px;
 }
 
 .nav-banner-description {
@@ -92,6 +93,7 @@
     font-size: 20px;
     color: #177BF2;
     border: 2px solid #177BF2;
+    border-radius: 5px;
 }
 
 /* about section  */
@@ -135,19 +137,20 @@
 /* this is what i do section  */
 .what-content {
     text-align: center;
-    padding: 25px 15%;
+    padding: 0 15%;
 }
 
 .what-content-title {
     font-size: 35px;
     font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .what-container {
     display: flex;
     justify-content: space-around;
     padding: 0 10%;
-    margin: 30px 0;
+    margin: 50px 0;
 }
 
 .what-container-box {
@@ -163,3 +166,49 @@
     font-size: 20px;
     font-weight: 700;
 }
+
+/* resume section  */
+.resume-title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+
+.resume-container-Content {
+    display: flex;
+    justify-content: space-around;
+    padding:0 10%;
+    gap: 75px;
+    margin-top: 35px;
+}
+
+.resume-container-Content-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-box{
+    padding-bottom: 25px;
+}
+.resume-box h4 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.resume-box h5 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.resume-box p{
+    padding-bottom: 35px;
+}
+.resume-btn{
+    text-align: center;
+    margin-bottom: 110px;
+}
+/* footer section  */
