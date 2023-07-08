@@ -103,26 +103,63 @@
     width: 80%;
     margin: 130px auto;
 }
-.about-content{
+
+.about-content {
     text-align: center;
     padding: 7% 15%;
 }
-.about-title{
+
+.about-title {
     font-size: 35px;
 }
-.about-description{
+
+.about-description {
     margin-top: 25px;
 }
-.about-info{
+
+.about-info {
     display: flex;
     text-align: center;
     justify-content: space-around;
     padding: 0 10%;
 }
-.about-info-list p{
+
+.about-info-list p {
     color: #757575;
 }
-.about-info-list h4{
+
+.about-info-list h4 {
     color: #474747;
 }
 
+/* this is what i do section  */
+.what-content {
+    text-align: center;
+    padding: 25px 15%;
+}
+
+.what-content-title {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.what-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10%;
+    margin: 30px 0;
+}
+
+.what-container-box {
+    width: 267px;
+    height: 320px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 33px;
+}
+
+.what-container-box-title {
+    margin: 35px 0;
+    font-size: 20px;
+    font-weight: 700;
+}
